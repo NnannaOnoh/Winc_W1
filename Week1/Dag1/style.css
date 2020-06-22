@@ -1,0 +1,109 @@
+* {
+
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+
+    background-color: rgb(255, 255, 255);
+}
+
+.naam{
+
+    color: black;
+    font-weight: bolder;
+    font-size: 16pt;
+}
+.lid{
+
+    color: rgb(160, 153, 153);
+}
+.rechten{
+
+    color: rgb(92, 84, 84);
+}
+.boldrequest{
+
+    font-weight: bold;
+}
+
+.kaartjes{
+    
+   display: grid; 
+   grid-template-columns: repeat(auto-fit, minmax(330px, 330px));
+}
+.kaartje{
+
+    border: 1px solid rgb(179, 174, 174);
+    border-radius: 5px 5px 5px 5px;
+    padding: 0px;
+    margin: 5px 5px 5px 5px;
+    min-width: 320px;
+    max-width: 320px;
+    height: 190px;
+    border-style: solid;
+}
+
+.picture {
+
+    float: right;
+    padding: 10px 10px 0px 0px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-1{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    padding: 5px 10px 0px 10px;
+    height: 33.3%;
+}
+.box-2{
+
+    padding: 0px 10px 0px 10px;
+    height: 33.3%;
+    border-bottom: 1px solid rgb(190, 185, 185);
+}
+.box-3{
+    
+    padding: 10px 10px 10px 10px;   
+}
+
+.buttons{
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+}
+
+.buttongreen{
+    
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid rgb(31, 207, 40);
+    width: 50%;
+    height: 19px;
+    border-right: 0px;
+
+    color:  rgb(31, 207, 40);
+
+    padding: 7px 0px 10px 0px;
+    text-align: center;
+    font-weight: bold;     
+}
+.buttonred{
+
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid rgb(207, 31, 31);
+    width: 50%;
+    height: 19px;
+    
+    color: rgb(207, 31, 31);
+
+    padding: 7px 0px 10px 0px;
+    text-align: center;
+    font-weight: bold;  
+}
